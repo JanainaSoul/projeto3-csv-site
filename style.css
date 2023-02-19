@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+
+
+html, body {
+	height: 100%;
+	background-color: hsl(30, 38%, 92%);
+	
+}
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.5;
+
+}
+
+img , svg {
+	padding-top: 5px;
+	max-width: 1440px;
+}
+
+img {
+	width: 30px;
+}
+
+svg {
+	padding-left: 100px;
+	display: flex;
+}
+
+
+
+h1 {
+	text-align: left;
+	width: 200px;
+    line-height: 1.1;
+    background-color: white;
+    padding-top: 0;
+    padding:0;
+    padding-bottom: 0;
+    padding-left: 30px;
+    margin:20px;
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+p {
+	width: 250px;
+	padding-left: 50px;
+	text-align: left;
+	line-height: 1.8;
+	
+}
+span {
+	padding-left: 35px;
+	width: 350px;
+	
+	
+}
+
+body {
+	margin-top: 200px;
+    font-family: "Fraunces", serif;
+    font-family: "Montserrat", sans-serif;
+   	font-size: 1rem;
+    color:Dark cyan: hsl(158, 36%, 37%);
+    background-color: Cream: hsl(30, 38%, 92%);
+    display: block;
+    place-content: center;
+    margin: 1rem; /*1rem=16px*/
+    padding-left: 25%;
+    padding-right: 15%;
+}
+
+
+
+.caixa {
+	width: 700px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 0;
+	padding-left: 0;
+	padding-top: 0;
+	border-radius: 10px;
+}
+
+.imagens {
+	float: left;
+	width: 50%;
+	display: flex;
+	padding: 0;
+	padding-left: 0;
+	padding-top: 0;
+	padding-right: ;
+
+
+}
+
+.produto-imagens {
+	width: 100%;
+	display: flex;
+
+}
+
+.produto-descricao {
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	background: white;
+	margin-bottom: 450px;
+	
+}
+
+.produto-tipo {
+	letter-spacing: 5px;
+	width: 350px;
+	text-style: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 50px;
+	padding-left: 50px;
+	
+	
+	
+	
+}
+
+.preco {
+	display: flex;
+
+}
+
+.preco-antigo-perfume {
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-top: 30px;
+	color: black;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+    text-decoration: line-through;
+    
+}
+.preco-atual-perfume {
+	color: hsl(158, 36%, 37%);
+	display: inline-block;
+	font-family: "Fraunces", serif;
+ 	font-size: 50px;
+	padding-left: 60px;
+	font-weight: bold;
+
+
+}
+
+
+
+/*.titulo-perfume {
+	text-transform: uppercase;
+	text-align: center;
+	display: flex;
+	background: white;
+
+}*/
+
+.descricao-perfume {
+	text-align: center;
+	
+	background: white;
+
+}
+
+
+
+	
+}
+
+.imagem {
+	display: inline-block;
+}
+.perfume-desktop {
+	
+	border-radius: 10px;
+	width: 350px;
+	height: 500px;
+	display: flex;
+}
+
+.carrinho {
+	text-align: center;
+	display: flex;
+	width: 250px;
+	padding: 5px 0;
+	background: hsl(158, 36%, 37%);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin-left: 18%;
+}
+.icone-carrinho {
+	width: 50px;
+	padding-left: 30px;
+}
+.creditos {
+	width: 700px;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 5%;
+	font-size: 15px;
+}
+
+.creditos a {
+	 color: hsl(228, 45%, 44%);
+}
+
+.copyright {
+	width: 700px;
+	height: 50px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	margin: 15px 0 0;
+}
+
+p.copyright {
+	padding-left: 0;
+	text-align: center;
+}
+
+.icones {
+	color: #ffffff;
+	width: 300px;
+	height: 150px;
+}
+
+
+
+footer {
+	display: block;
+	
+}
+
+
+/*adaptação para outros dispositivos*/
+@media screen and (max-width: 480px){
+	 .caixa, .produto-descricao, , .carrinho, .creditos {
+		width: auto;
+		display: none;
+		float: left;
+	}
+body {
+	padding: 0px;
+	width: 480px;
+	display: auto;
+}
+h1 {
+	text-align: center;
+}
+.caixa {
+	background-color: white;
+	padding-left: 40px;
+	width: 400px;
+	display: inline-block;
+}
+.produto-tipo {
+	margin-top: 500px;
+}
+.perfume-desktop {
+
+	display: inline-block;
+	float: left;
+	margin: 0px;
+	
+	padding-left:0px;
+	padding-right: 40px;
+	width: 400px;
+}
+.produto-tipo{
+	text-align: left;
+}
+footer {
+
+	width: 480px;
+	height: 200px;
+	float: left;
+	padding-left: 0px;
+	text-align: left;
+}
+
+.creditos{
+	text-align: left;
+}
+
+p.copyright{
+	text-align: left;
+}
+	/*body {
+		padding: 0px;
+		margin:0px;
+	}
+
+
+	.imagens {
+
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+.produtos-imagens {
+	
+	width: 100%;*/
+	
+}
+
+/*Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+* Mobile: 375px
+* Desktop: 1440px
+
+## Colors
+
+### Primary
+
+* Dark cyan: hsl(158, 36%, 37%)
+* Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+* Very dark blue: hsl(212, 21%, 14%)
+* Dark grayish blue: hsl(228, 12%, 48%)
+* White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+* Font size (paragraph): 14px
+
+### Font
+
+* Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+  
+* Weights: 500, 700
+  
+* Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+  
+* Weights: 700 */
